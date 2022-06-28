@@ -1,11 +1,13 @@
-'''
-Exercício Python 18: Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+"""
+Exercício Python 18:
+Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
 
-'''
+"""
 # from math import radians, sin, cos, tan
-#Quando usar from, lembrar de rirar math e deixar só o arquivo impotado:
-#seno = sin(radians(angulo))
+# Quando usar from, lembrar de retirar math e deixar só o arquivo importado:
+# seno = sin(radians(angulo))
 import math
+
 angulo = float(input('Digite um ângulo: '))
 seno = math.sin(math.radians(angulo))
 print(f'Ângulo de {angulo} tem o SENO de {seno:.2f}')

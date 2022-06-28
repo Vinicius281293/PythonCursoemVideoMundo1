@@ -1,9 +1,11 @@
-'''
-Exercício Python 19: Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
-'''
-#from random import choice
-#choice sorteia apenas um item dentro da lista  
+"""
+Exercício Python 19:
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.
+"""
+# from random import choice
+# choice sorteia apenas um ‘item’ na lista
 import random
+
 aluno1 = input('Primeiro Aluno: ')
 aluno2 = input('Segundo Aluno: ')
 aluno3 = input('Terceiro Aluno: ')
